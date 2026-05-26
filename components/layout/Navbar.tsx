@@ -51,7 +51,7 @@ export default function Navbar() {
               <img
                 src="/logo.png"
                 alt="Paul Carey & Sons Ltd"
-                className="h-auto w-40 lg:w-[350px] object-contain"
+                className="h-auto w-40 lg:w-[300px] object-contain"
               />
             </Link>
 
