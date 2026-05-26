@@ -2,18 +2,8 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { Menu, X, Phone, ChevronDown } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-
-const serviceLinks = [
-  { href: '/civil-engineering', label: 'Civil Engineering' },
-  { href: '/plant-hire', label: 'Plant Hire' },
-  { href: '/haulage', label: 'Haulage & Transport' },
-  { href: '/landscaping', label: 'Landscaping & Ponds' },
-  { href: '/land-reclamation', label: 'Land Reclamation' },
-  { href: '/recycling', label: 'Recycling' },
-  { href: '/demolition', label: 'Demolition' },
-];
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -79,22 +69,8 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* RED SERVICES BAR — desktop only */}
-        <div className="hidden lg:block bg-[#C1121F]">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between">
-              {serviceLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="text-white text-sm font-medium py-2.5 px-2 hover:bg-[#a00f1a] transition-colors whitespace-nowrap flex-1 text-center"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
+        {/* RED ACCENT STRIPE */}
+        <div className="w-full bg-[#C1121F]" style={{ height: '8px' }} />
       </motion.nav>
 
       <AnimatePresence>
@@ -125,7 +101,15 @@ export default function Navbar() {
                   <div className="pt-2 pb-1">
                     <p className="text-gray-500 text-xs uppercase tracking-widest font-semibold mb-2">Services</p>
                   </div>
-                  {serviceLinks.map((link) => (
+                  {[
+                    { href: '/civil-engineering', label: 'Civil Engineering' },
+                    { href: '/plant-hire', label: 'Plant Hire' },
+                    { href: '/haulage', label: 'Haulage & Transport' },
+                    { href: '/landscaping', label: 'Landscaping & Ponds' },
+                    { href: '/land-reclamation', label: 'Land Reclamation' },
+                    { href: '/recycling', label: 'Recycling' },
+                    { href: '/demolition', label: 'Demolition' },
+                  ].map((link) => (
                     <Link key={link.href} href={link.href} onClick={() => setIsMobileMenuOpen(false)}
                       className="text-gray-300 py-2 hover:text-[#C1121F] transition-colors pl-3 border-b border-gray-800/50">
                       {link.label}
