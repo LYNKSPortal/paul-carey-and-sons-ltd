@@ -79,7 +79,7 @@ export default function AboutPage() {
         subtitle="Our Story"
         description="A Manx family business delivering expert civil engineering and groundwork services since 1999."
         height="large"
-        backgroundImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076"
+        backgroundImage="/Plant-Hire-008.jpg"
       />
 
       <section className="py-20 bg-white">
@@ -122,15 +122,15 @@ export default function AboutPage() {
             >
               <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 rounded-xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?q=80&w=2070"
-                  alt="Construction equipment"
+                  src="/homepage-img-002.jpg"
+                  alt="Paul Carey & Sons machinery on site"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 rounded-xl overflow-hidden mt-8">
                 <img
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076"
-                  alt="Civil engineering"
+                  src="/homepage-img-003.jpg"
+                  alt="Civil engineering work on site"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -253,8 +253,8 @@ export default function AboutPage() {
             >
               <div className="aspect-video bg-gradient-to-br from-gray-200 to-gray-300 rounded-xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=2070"
-                  alt="Safety equipment"
+                  src="/Plant-Hire-009.jpg"
+                  alt="Paul Carey & Sons team on site"
                   className="w-full h-full object-cover"
                 />
               </div>
