@@ -28,3 +28,13 @@ body {
 @media (min-width: 1024px) {
   body { font-size: 18px; }
 }
+
+/* Override Tailwind body-text classes to inherit responsive body font-size.
+   text-xl and above (titles/headings) are intentionally excluded. */
+.text-xs,
+.text-sm,
+.text-base,
+.text-lg {
+  font-size: inherit;
+  line-height: inherit;
+}
