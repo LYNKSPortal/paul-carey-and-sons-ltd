@@ -59,6 +59,7 @@ export default function Navbar() {
               <Link href="/" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Home</Link>
               <Link href="/about" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">About</Link>
               <Link href="/services" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Services</Link>
+              <Link href="/careers" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Careers</Link>
               <Link
                 href="/contact"
                 className="bg-[#C1121F] text-white px-6 py-2.5 rounded-lg hover:bg-[#a00f1a] transition-colors font-semibold"
@@ -112,6 +113,7 @@ export default function Navbar() {
                     { href: '/', label: 'Home' },
                     { href: '/about', label: 'About' },
                     { href: '/services', label: 'All Services' },
+                    { href: '/careers', label: 'Careers' },
                   ].map((link) => (
                     <Link key={link.href} href={link.href} onClick={() => setIsMobileMenuOpen(false)}
                       className="text-white text-lg py-3 hover:text-[#C1121F] transition-colors font-medium border-b border-gray-800">
