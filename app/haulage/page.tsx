@@ -30,18 +30,16 @@ const services = [
 ];
 
 const galleryImages = [
-  {
-    src: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070',
-    alt: 'Haulage vehicle on Isle of Man',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2086',
-    alt: 'Plant transport',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076',
-    alt: 'Construction machinery transport',
-  },
+  { src: '/Haulage-Plant-Transport-001.jpg', alt: 'Haulage & plant transport 1' },
+  { src: '/Haulage-Plant-Transport-002.jpg', alt: 'Haulage & plant transport 2' },
+  { src: '/Haulage-Plant-Transport-003.jpg', alt: 'Haulage & plant transport 3' },
+  { src: '/Haulage-Plant-Transport-004.jpg', alt: 'Haulage & plant transport 4' },
+  { src: '/Haulage-Plant-Transport-005.jpg', alt: 'Haulage & plant transport 5' },
+  { src: '/Haulage-Plant-Transport-006.jpg', alt: 'Haulage & plant transport 6' },
+  { src: '/Haulage-Plant-Transport-007.jpg', alt: 'Haulage & plant transport 7' },
+  { src: '/Haulage-Plant-Transport-008.jpg', alt: 'Haulage & plant transport 8' },
+  { src: '/Haulage-Plant-Transport-009.jpg', alt: 'Haulage & plant transport 9' },
+  { src: '/Haulage-Plant-Transport-010.jpg', alt: 'Haulage & plant transport 10' },
 ];
 
 export default function HaulagePage() {
@@ -52,7 +50,7 @@ export default function HaulagePage() {
         subtitle="Home – Haulage & Plant Transport"
         description="Need reliable haulage and plant transport across the Isle of Man? At Paul Carey & Sons Ltd, we provide efficient, professional transport solutions for plant machinery, aggregates, and construction materials."
         primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
-        backgroundImage="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070"
+        backgroundImage="/Haulage-Plant-Transport-001.jpg"
       />
 
       {/* INTRO & SERVICES */}
@@ -133,7 +131,7 @@ export default function HaulagePage() {
           >
             <p className="text-[#C1121F] font-semibold text-sm uppercase tracking-wider mb-4">Our Fleet in Action</p>
             <h3 className="text-3xl font-bold text-[#111111] mb-8">Haulage Gallery</h3>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {galleryImages.map((img, index) => (
                 <motion.div
                   key={index}
