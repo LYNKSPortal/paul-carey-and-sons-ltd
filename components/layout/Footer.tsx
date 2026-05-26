@@ -31,7 +31,7 @@ export default function Footer() {
             <img
               src="/logo.png"
               alt="Paul Carey & Sons Ltd"
-              className="h-14 w-auto object-contain"
+              className="h-auto w-[300px] object-contain"
             />
           </div>
           <p className="text-gray-400 max-w-2xl text-base leading-relaxed">
