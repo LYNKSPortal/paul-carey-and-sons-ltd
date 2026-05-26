@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        '7xl': '1450px',
+      },
       colors: {
         primary: '#C1121F',
         dark: '#111111',
