@@ -10,6 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://paulcarey.im'),
   title: "Paul Carey & Sons Ltd | Civil Engineering & Groundwork Specialists | Isle of Man",
   description: "Family-run civil engineering and groundwork contractors serving the Isle of Man since 1999. Expert services in civil engineering, plant hire, haulage, landscaping, recycling, and demolition.",
   keywords: "civil engineering, groundwork, Isle of Man, plant hire, haulage, demolition, recycling, landscaping, construction, Manx contractors",
