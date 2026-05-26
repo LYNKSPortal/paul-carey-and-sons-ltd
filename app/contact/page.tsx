@@ -26,7 +26,7 @@ export default function ContactPage() {
         subtitle="Home – Contact Us"
         description="Get in touch with our team. We're here to help with any enquiries about our services across the Isle of Man."
         height="large"
-        backgroundImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076"
+        backgroundImage="/Haulage-Plant-Transport-008.jpg"
       />
 
       <section className="py-20 bg-white">

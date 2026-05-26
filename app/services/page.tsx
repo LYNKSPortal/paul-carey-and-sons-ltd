@@ -12,7 +12,7 @@ const services = [
     description: 'Comprehensive civil engineering services including river works, bridge reconstructions, highway regeneration, and agricultural pipelines.',
     icon: Building2,
     href: '/civil-engineering',
-    img: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070',
+    img: '/Civil-Engineering-001.jpg',
     features: ['River Works', 'Bridge Reconstruction', 'Highway Regeneration', 'Agricultural Pipelines'],
   },
   {
@@ -20,7 +20,7 @@ const services = [
     description: 'High-quality, fully maintained machinery available for hire across the Isle of Man for all groundwork and construction projects.',
     icon: Wrench,
     href: '/plant-hire',
-    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076',
+    img: '/Plant-Hire-006.jpg',
     features: ['Excavators', 'Dumpers & Rollers', 'Compact Loaders', 'Site Clearance Equipment'],
   },
   {
@@ -28,7 +28,7 @@ const services = [
     description: 'Professional transport solutions for heavy plant, aggregates, and oversized loads across the Isle of Man.',
     icon: Truck,
     href: '/haulage',
-    img: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070',
+    img: '/Haulage-Plant-Transport-005.jpg',
     features: ['Heavy Plant Transport', 'Aggregate Haulage', 'Site-to-Site Relocation', 'Oversized Load Handling'],
   },
   {
@@ -36,7 +36,7 @@ const services = [
     description: 'Expert hard and soft landscaping, pond construction, water features, ground preparation, and drainage.',
     icon: Trees,
     href: '/landscaping',
-    img: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070',
+    img: '/Landscaping-and-Ponds-003.jpg',
     features: ['Hard & Soft Landscaping', 'Pond Construction', 'Ground Preparation', 'Turfing & Seeding'],
   },
   {
@@ -44,7 +44,7 @@ const services = [
     description: 'Specialist coastal, marine, and brownfield land reclamation including flood risk management and soil stabilisation.',
     icon: HardHat,
     href: '/land-reclamation',
-    img: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=2031',
+    img: '/Land-Reclamation-005.jpg',
     features: ['Coastal Reclamation', 'Brownfield Redevelopment', 'Flood Risk Management', 'Soil Stabilisation'],
   },
   {
@@ -52,7 +52,7 @@ const services = [
     description: 'Sustainable recycling and waste management including aggregate recycling, green waste, and site waste management.',
     icon: Recycle,
     href: '/recycling',
-    img: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=2072',
+    img: '/Recycling-003.jpg',
     features: ['Aggregate Recycling', 'Green Waste', 'Site Waste Management', 'Muck Away & Soil Screening'],
   },
   {
@@ -60,7 +60,7 @@ const services = [
     description: 'Safe and controlled demolition from full structural demolition to soft strip and site clearance, with recycling and remediation.',
     icon: Hammer,
     href: '/demolition',
-    img: 'https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=2070',
+    img: '/Demolition-003.jpg',
     features: ['Full Demolition', 'Partial Demolition', 'Soft Strip', 'Site Clearance'],
   },
 ];
@@ -73,7 +73,7 @@ export default function ServicesPage() {
         subtitle="What We Do"
         description="Comprehensive civil engineering and groundwork services across the Isle of Man."
         height="large"
-        backgroundImage="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070"
+        backgroundImage="/Haulage-Plant-Transport-002.jpg"
       />
 
       <section className="py-20 bg-white">
