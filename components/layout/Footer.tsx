@@ -44,14 +44,14 @@ export default function Footer() {
         </div>
 
         {/* ROW 2 — Four columns */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12 text-center sm:text-left">
 
           {/* Our Services */}
           <div>
             <h4 className="text-lg font-bold mb-4">Our Services</h4>
             <ul className="space-y-2">
               {services.map((service) => (
-                <li key={service.href}>
+                <li key={service.href} className="flex justify-center sm:justify-start">
                   <Link href={service.href} className="text-gray-400 hover:text-[#C1121F] transition-colors duration-200">
                     {service.name}
                   </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.href} className="flex justify-center sm:justify-start">
                   <Link href={link.href} className="text-gray-400 hover:text-[#C1121F] transition-colors duration-200">
                     {link.name}
                   </Link>
@@ -78,7 +78,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">Contact Us</h4>
             <div className="space-y-4">
-              <div className="flex items-start space-x-3">
+              <div className="flex items-start space-x-3 justify-center sm:justify-start">
                 <MapPin className="text-[#C1121F] mt-1 flex-shrink-0" size={18} />
                 <div className="text-gray-400 text-sm">
                   <p>Ballasalla Farm</p>
@@ -86,13 +86,13 @@ export default function Footer() {
                   <p>Isle of Man, IM7 3AS</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 justify-center sm:justify-start">
                 <Phone className="text-[#C1121F] flex-shrink-0" size={18} />
                 <a href="tel:01624880581" className="text-gray-400 hover:text-[#C1121F] transition-colors text-sm">
                   01624 880581
                 </a>
               </div>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 justify-center sm:justify-start">
                 <Mail className="text-[#C1121F] flex-shrink-0" size={18} />
                 <a href="mailto:mail@pcsltd.im" className="text-gray-400 hover:text-[#C1121F] transition-colors text-sm">
                   mail@pcsltd.im
@@ -104,7 +104,7 @@ export default function Footer() {
           {/* Opening Hours */}
           <div>
             <h4 className="text-lg font-bold mb-4">Opening Hours</h4>
-            <div className="flex items-start space-x-3">
+            <div className="flex items-start space-x-3 justify-center sm:justify-start">
               <Clock className="text-[#C1121F] mt-0.5 flex-shrink-0" size={18} />
               <div className="text-gray-400 text-sm space-y-0.5">
                 <p>Mon: 9:00am – 5:00pm</p>
