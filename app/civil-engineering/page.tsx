@@ -20,9 +20,9 @@ const civilSections = [
       { title: 'Environmental Enhancements', desc: 'Ecologically sensitive solutions to support biodiversity and water quality' },
     ],
     images: [
-      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070',
-      'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=2031',
-      'https://images.unsplash.com/photo-1581094271901-8022df4466f9?q=80&w=2070',
+      '/Civil-Engineering-001.jpg',
+      '/Civil-Engineering-002.jpg',
+      '/Civil-Engineering-003.jpg',
     ],
   },
   {
@@ -38,9 +38,9 @@ const civilSections = [
       { title: 'Trenchless & Open-Cut Methods', desc: 'Minimising disruption to farmland with modern installation techniques' },
     ],
     images: [
-      'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2232',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070',
+      '/Civil-Engineering-002.jpg',
+      '/Civil-Engineering-003.jpg',
+      '/Civil-Engineering-004.jpg',
     ],
   },
   {
@@ -56,9 +56,9 @@ const civilSections = [
       { title: 'Reinstatement Works', desc: 'Full road surface restoration and compliance with highway specifications' },
     ],
     images: [
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2086',
-      'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=2070',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070',
+      '/Civil-Engineering-003.jpg',
+      '/Civil-Engineering-004.jpg',
+      '/Civil-Engineering-001.jpg',
     ],
   },
   {
@@ -77,9 +77,9 @@ const civilSections = [
       { title: 'Street lighting renewal', desc: 'Renew street lighting within work extents' },
     ],
     images: [
-      'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=2144',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070',
+      '/Civil-Engineering-004.jpg',
+      '/Civil-Engineering-001.jpg',
+      '/Civil-Engineering-002.jpg',
     ],
   },
   {
@@ -98,9 +98,9 @@ const civilSections = [
       { title: 'Access & mooring infrastructure', desc: 'Access ladders, flood gates, mooring rings and bollards incorporated with the flood wall' },
     ],
     images: [
-      'https://images.unsplash.com/photo-1542621334-a254cf47733d?q=80&w=2070',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070',
+      '/Civil-Engineering-001.jpg',
+      '/Civil-Engineering-003.jpg',
+      '/Civil-Engineering-004.jpg',
     ],
   },
 ];
@@ -113,7 +113,7 @@ export default function CivilEngineeringPage() {
         subtitle="Home – Civil Engineering"
         description="Expert civil engineering services across the Isle of Man — from river works and agricultural pipelines to bridge reconstruction and highway regeneration."
         primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
-        backgroundImage="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070"
+        backgroundImage="/Civil-Engineering-001.jpg"
       />
 
       <section className="py-20 bg-white">
