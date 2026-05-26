@@ -29,12 +29,16 @@ body {
   body { font-size: 18px; }
 }
 
-/* Override Tailwind body-text classes to inherit responsive body font-size.
-   text-xl and above (titles/headings) are intentionally excluded. */
+/* Force all non-title text to use the responsive body font-size.
+   text-2xl and above (page/section titles) are intentionally excluded. */
 .text-xs,
 .text-sm,
 .text-base,
-.text-lg {
-  font-size: inherit;
-  line-height: inherit;
+.text-lg,
+.text-xl {
+  font-size: inherit !important;
+  line-height: 1.75 !important;
 }
+
+/* Restore tracking for uppercase labels that use text-xs */
+.tracking-wider, .tracking-widest { letter-spacing: inherit; }
