@@ -59,7 +59,6 @@ export default function Navbar() {
               <Link href="/" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Home</Link>
               <Link href="/about" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">About</Link>
               <Link href="/services" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Services</Link>
-              <Link href="/contact" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Contact</Link>
               <Link
                 href="/contact"
                 className="bg-[#C1121F] text-white px-6 py-2.5 rounded-lg hover:bg-[#a00f1a] transition-colors font-semibold"
