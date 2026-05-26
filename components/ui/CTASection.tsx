@@ -24,7 +24,7 @@ export default function CTASection({
   variant = 'dark',
 }: CTASectionProps) {
   const variantClasses = {
-    dark: 'bg-[#111111] text-white',
+    dark: 'bg-[#C1121F] text-white',
     light: 'bg-[#F5F5F5] text-[#111111]',
     red: 'bg-[#C1121F] text-white',
   };
