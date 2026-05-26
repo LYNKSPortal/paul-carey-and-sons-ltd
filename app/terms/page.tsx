@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import HeroSection from '@/components/ui/HeroSection';
 
 export const metadata: Metadata = {
   title: 'Terms & Conditions | Paul Carey & Sons Ltd',
@@ -67,15 +68,12 @@ const sections = [
 export default function TermsPage() {
   return (
     <main className="bg-white">
-      {/* HERO */}
-      <div className="bg-[#111111] py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[#C1121F] font-semibold text-sm uppercase tracking-wider mb-4">Legal</p>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Terms & Conditions</h1>
-          <p className="text-gray-400">Home – Terms & Conditions</p>
-          <p className="text-gray-500 text-sm mt-4">Last updated: May 2025</p>
-        </div>
-      </div>
+      <HeroSection
+        title="Terms & Conditions"
+        subtitle="Legal"
+        description="The terms governing use of our website and services."
+        backgroundImage="/Land-Reclamation-012.jpg"
+      />
 
       {/* CONTENT */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
