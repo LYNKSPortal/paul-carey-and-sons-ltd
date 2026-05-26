@@ -163,6 +163,9 @@ export default function CareersPage() {
               <Mail size={20} />
               Send Your Details
             </a>
+            <p className="text-gray-500 text-sm mt-6 max-w-2xl mx-auto leading-relaxed">
+              By sending us your CV or employment details, you consent to Paul Carey &amp; Sons Ltd retaining your information for up to 12 months for the purpose of considering you for future employment opportunities. You may request removal of your data at any time by contacting us.
+            </p>
           </motion.div>
         </div>
       </section>
