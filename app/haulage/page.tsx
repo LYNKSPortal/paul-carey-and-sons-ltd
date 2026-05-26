@@ -49,7 +49,7 @@ export default function HaulagePage() {
         title="Haulage & Plant Transport"
         subtitle="Home – Haulage & Plant Transport"
         description="Need reliable haulage and plant transport across the Isle of Man? At Paul Carey & Sons Ltd, we provide efficient, professional transport solutions for plant machinery, aggregates, and construction materials."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         backgroundImage="/Haulage-Plant-Transport-001.jpg"
       />
 
@@ -86,10 +86,10 @@ export default function HaulagePage() {
 
               <div className="pt-4">
                 <Link
-                  href="/quote"
+                  href="/contact"
                   className="inline-block bg-[#C1121F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#a00f1a] transition-colors"
                 >
-                  Get a Quote
+                  Contact Us
                 </Link>
               </div>
             </motion.div>
@@ -156,7 +156,7 @@ export default function HaulagePage() {
       <CTASection
         title="Need Haulage & Plant Transport?"
         description="Contact our team for competitive rates and availability across the Isle of Man."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         showPhone={true}
         variant="dark"
       />

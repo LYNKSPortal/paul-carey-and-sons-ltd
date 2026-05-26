@@ -61,10 +61,10 @@ export default function Navbar() {
               <Link href="/services" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Services</Link>
               <Link href="/contact" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Contact</Link>
               <Link
-                href="/quote"
+                href="/contact"
                 className="bg-[#C1121F] text-white px-6 py-2.5 rounded-lg hover:bg-[#a00f1a] transition-colors font-semibold"
               >
-                Get a Quote
+                Contact Us
               </Link>
             </div>
 
@@ -133,9 +133,9 @@ export default function Navbar() {
                     Contact
                   </Link>
                   <div className="pt-4">
-                    <Link href="/quote" onClick={() => setIsMobileMenuOpen(false)}
+                    <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}
                       className="block bg-[#C1121F] text-white px-6 py-3 rounded-lg hover:bg-[#a00f1a] transition-colors font-semibold text-center">
-                      Get a Quote
+                      Contact Us
                     </Link>
                   </div>
                   <div className="pt-6 border-t border-gray-700 mt-4">

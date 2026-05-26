@@ -70,7 +70,7 @@ export default function LandReclamationPage() {
         title="Land Reclamation"
         subtitle="Home – Land Reclamation"
         description="At Paul Carey & Sons Ltd, we offer expert land reclamation services across the Isle of Man, helping to transform underused or environmentally challenged areas into valuable, functional land for commercial, industrial, and public use."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         backgroundImage="/Land-Reclamation-001.jpg"
       />
 
@@ -107,10 +107,10 @@ export default function LandReclamationPage() {
 
               <div className="pt-4">
                 <Link
-                  href="/quote"
+                  href="/contact"
                   className="inline-block bg-[#C1121F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#a00f1a] transition-colors"
                 >
-                  Get a Quote
+                  Contact Us
                 </Link>
               </div>
             </motion.div>
@@ -177,7 +177,7 @@ export default function LandReclamationPage() {
       <CTASection
         title="Planning a Land Reclamation Project?"
         description="Our specialist team can advise on the most effective and sustainable approach for your site."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         showPhone={true}
         variant="dark"
       />

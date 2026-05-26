@@ -45,7 +45,7 @@ export default function RecyclingPage() {
         title="Recycling"
         subtitle="Home – Recycling"
         description="At Paul Carey & Sons Ltd, we are committed to sustainable waste management, providing efficient recycling solutions across the Isle of Man. Our services ensure that construction, demolition, and landscaping waste is handled responsibly, reducing environmental impact while supporting a cleaner, greener future."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         backgroundImage="/Recycling-001.jpg"
       />
 
@@ -82,10 +82,10 @@ export default function RecyclingPage() {
 
               <div className="pt-4">
                 <Link
-                  href="/quote"
+                  href="/contact"
                   className="inline-block bg-[#C1121F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#a00f1a] transition-colors"
                 >
-                  Get a Quote
+                  Contact Us
                 </Link>
               </div>
             </motion.div>
@@ -152,7 +152,7 @@ export default function RecyclingPage() {
       <CTASection
         title="Manage Your Site Waste Responsibly"
         description="Talk to our team about recycling and waste management solutions for your project."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         showPhone={true}
         variant="dark"
       />

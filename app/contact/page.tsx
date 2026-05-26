@@ -160,8 +160,8 @@ export default function ContactPage() {
               className="space-y-6"
             >
               <div className="bg-[#111111] rounded-2xl p-8 text-white">
-                <h4 className="text-xl font-bold mb-2">Need a Quote?</h4>
-                <p className="text-gray-400 mb-6 text-sm">Call us directly or fill in our quote form for a free, no-obligation quote.</p>
+                <h4 className="text-xl font-bold mb-2">Ready to Get Started?</h4>
+                <p className="text-gray-400 mb-6 text-sm">Call us directly for a free, no-obligation discussion about your project.</p>
                 <div className="space-y-3 mb-6">
                   {phones.map((num) => (
                     <a key={num} href={`tel:${num.replace(/\s/g, '')}`} className="flex items-center gap-3 text-white hover:text-[#C1121F] transition-colors">
@@ -170,13 +170,13 @@ export default function ContactPage() {
                     </a>
                   ))}
                 </div>
-                <Link
-                  href="/quote"
+                <a
+                  href="tel:01624880581"
                   className="inline-flex items-center gap-2 bg-[#C1121F] text-white px-6 py-3 rounded-xl font-bold hover:bg-[#a00f1a] transition-colors group"
                 >
-                  Get a Free Quote
+                  Call 01624 880581
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                </Link>
+                </a>
               </div>
 
               <div className="bg-[#F5F5F5] rounded-2xl p-8">

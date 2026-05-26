@@ -266,7 +266,7 @@ export default function AboutPage() {
       <CTASection
         title="Work With a Trusted Partner"
         description="Experience the difference of working with a family-run business committed to excellence."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         secondaryCTA={{ text: 'Contact Us', href: '/contact' }}
         variant="dark"
       />

@@ -52,7 +52,7 @@ export default function DemolitionPage() {
         title="Demolition"
         subtitle="Home – Demolition"
         description="At Paul Carey & Sons Ltd, we provide safe, efficient, and controlled demolition services across the Isle of Man, handling everything from small-scale structures to large commercial and industrial buildings."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         backgroundImage="/Demolition-008.jpg"
       />
 
@@ -89,10 +89,10 @@ export default function DemolitionPage() {
 
               <div className="pt-4">
                 <Link
-                  href="/quote"
+                  href="/contact"
                   className="inline-block bg-[#C1121F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#a00f1a] transition-colors"
                 >
-                  Get a Quote
+                  Contact Us
                 </Link>
               </div>
             </motion.div>
@@ -159,7 +159,7 @@ export default function DemolitionPage() {
       <CTASection
         title="Planning a Demolition Project?"
         description="Get a detailed quote from our specialist demolition team today."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         showPhone={true}
         variant="dark"
       />

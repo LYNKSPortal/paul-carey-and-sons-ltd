@@ -45,7 +45,7 @@ export default function LandscapingPage() {
         title="Landscaping & Ponds"
         subtitle="Home – Landscaping & Ponds"
         description="Transform your outdoor space with expert landscaping and pond construction from Paul Carey & Sons Ltd. We offer a complete range of services to enhance gardens, commercial spaces, and rural landscapes across the Isle of Man."
-        primaryCTA={{ text: 'Get a Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         backgroundImage="/Landscaping-and-Ponds-001.jpg"
       />
 
@@ -82,10 +82,10 @@ export default function LandscapingPage() {
 
               <div className="pt-4">
                 <Link
-                  href="/quote"
+                  href="/contact"
                   className="inline-block bg-[#C1121F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#a00f1a] transition-colors"
                 >
-                  Get a Quote
+                  Contact Us
                 </Link>
               </div>
             </motion.div>
@@ -152,7 +152,7 @@ export default function LandscapingPage() {
       <CTASection
         title="Transform Your Outdoor Space"
         description="Speak to our landscaping team about your project requirements across the Isle of Man."
-        primaryCTA={{ text: 'Get a Free Quote', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
         showPhone={true}
         variant="dark"
       />
