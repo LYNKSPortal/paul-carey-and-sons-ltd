@@ -186,6 +186,7 @@ export default function Home() {
                 href={service.href}
                 backgroundImage={service.img}
                 delay={index * 0.08}
+                className={index === services.length - 1 ? 'lg:col-span-3' : ''}
               />
             ))}
           </div>

@@ -11,6 +11,7 @@ interface ServiceCardProps {
   href: string;
   backgroundImage?: string;
   delay?: number;
+  className?: string;
 }
 
 export default function ServiceCard({
@@ -20,6 +21,7 @@ export default function ServiceCard({
   href,
   backgroundImage,
   delay = 0,
+  className = '',
 }: ServiceCardProps) {
   return (
     <motion.div
@@ -27,7 +29,7 @@ export default function ServiceCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}
-      className="group relative h-[400px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+      className={`group relative h-[400px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 ${className}`}
     >
       {backgroundImage && (
         <div
