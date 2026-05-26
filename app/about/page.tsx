@@ -4,7 +4,6 @@ import HeroSection from '@/components/ui/HeroSection';
 import CTASection from '@/components/ui/CTASection';
 import { motion } from 'framer-motion';
 import { Shield, Users, Leaf, Award, Target, Heart } from 'lucide-react';
-import type { Metadata } from 'next';
 
 export default function AboutPage() {
   const values = [
