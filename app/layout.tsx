@@ -27,6 +27,20 @@ export const metadata: Metadata = {
     description: "Leading civil engineering and groundwork contractors on the Isle of Man since 1999.",
     type: "website",
     locale: "en_GB",
+    images: [
+      {
+        url: '/meta-twitter-facebook.png',
+        width: 1200,
+        height: 630,
+        alt: 'Paul Carey & Sons Ltd — Civil Engineering & Groundwork Specialists, Isle of Man',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Paul Carey & Sons Ltd | Civil Engineering Specialists",
+    description: "Leading civil engineering and groundwork contractors on the Isle of Man since 1999.",
+    images: ['/meta-twitter-facebook.png'],
   },
 };
 
