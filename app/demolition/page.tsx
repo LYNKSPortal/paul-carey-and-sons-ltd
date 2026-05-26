@@ -52,7 +52,7 @@ export default function DemolitionPage() {
         title="Demolition"
         subtitle="Home – Demolition"
         description="At Paul Carey & Sons Ltd, we provide safe, efficient, and controlled demolition services across the Isle of Man, handling everything from small-scale structures to large commercial and industrial buildings."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         backgroundImage="/Demolition-008.jpg"
       />
 
@@ -159,7 +159,7 @@ export default function DemolitionPage() {
       <CTASection
         title="Planning a Demolition Project?"
         description="Get a detailed quote from our specialist demolition team today."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         showPhone={true}
         variant="dark"
       />

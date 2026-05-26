@@ -70,7 +70,7 @@ export default function LandReclamationPage() {
         title="Land Reclamation"
         subtitle="Home – Land Reclamation"
         description="At Paul Carey & Sons Ltd, we offer expert land reclamation services across the Isle of Man, helping to transform underused or environmentally challenged areas into valuable, functional land for commercial, industrial, and public use."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         backgroundImage="/Land-Reclamation-001.jpg"
       />
 
@@ -177,7 +177,7 @@ export default function LandReclamationPage() {
       <CTASection
         title="Planning a Land Reclamation Project?"
         description="Our specialist team can advise on the most effective and sustainable approach for your site."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         showPhone={true}
         variant="dark"
       />

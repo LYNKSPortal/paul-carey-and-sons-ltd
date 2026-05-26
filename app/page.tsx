@@ -98,7 +98,7 @@ export default function Home() {
         title="Welcome to Paul Carey & Sons"
         subtitle="Isle of Man Civil Engineering Specialists"
         description="Family-run since 1999. One of the Island's leading civil engineering contractors — diverse, dynamic, and driven by an ethos of social responsibility."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         secondaryCTA={{ text: 'Our Services', href: '/services' }}
         backgroundImage="/home-hero-background.jpg"
       />
@@ -319,8 +319,7 @@ export default function Home() {
       <CTASection
         title="Ready to Start Your Project?"
         description="Get in touch with our expert team today for a free consultation and competitive quote."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
-        secondaryCTA={{ text: 'Contact Us', href: '/contact' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         showPhone={true}
         variant="red"
       />

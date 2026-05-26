@@ -45,7 +45,7 @@ export default function RecyclingPage() {
         title="Recycling"
         subtitle="Home – Recycling"
         description="At Paul Carey & Sons Ltd, we are committed to sustainable waste management, providing efficient recycling solutions across the Isle of Man. Our services ensure that construction, demolition, and landscaping waste is handled responsibly, reducing environmental impact while supporting a cleaner, greener future."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         backgroundImage="/Recycling-001.jpg"
       />
 
@@ -152,7 +152,7 @@ export default function RecyclingPage() {
       <CTASection
         title="Manage Your Site Waste Responsibly"
         description="Talk to our team about recycling and waste management solutions for your project."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         showPhone={true}
         variant="dark"
       />

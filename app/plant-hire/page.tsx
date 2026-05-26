@@ -39,7 +39,7 @@ export default function PlantHirePage() {
         title="Reliable Plant Hire Across the Isle of Man"
         subtitle="Plant Hire"
         description="High-quality, fully maintained machinery available for your groundwork and construction projects."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         secondaryCTA={{ text: 'Call Us Now', href: 'tel:01624880581' }}
         backgroundImage="/Plant-Hire-002.jpg"
       />
@@ -174,7 +174,7 @@ export default function PlantHirePage() {
       <CTASection
         title="Get in Touch"
         description="Tell us what you need and we'll provide a competitive quote tailored to your project."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         showPhone={true}
         variant="red"
       />

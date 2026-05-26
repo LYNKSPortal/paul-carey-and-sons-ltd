@@ -112,7 +112,7 @@ export default function CivilEngineeringPage() {
         title="Civil Engineering"
         subtitle="Home – Civil Engineering"
         description="Expert civil engineering services across the Isle of Man — from river works and agricultural pipelines to bridge reconstruction and highway regeneration."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         backgroundImage="/Civil-Engineering-001.jpg"
       />
 
@@ -205,7 +205,7 @@ export default function CivilEngineeringPage() {
       <CTASection
         title="Start Your Civil Engineering Project"
         description="Talk to our expert team about your requirements across the Isle of Man."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         showPhone={true}
         variant="dark"
       />

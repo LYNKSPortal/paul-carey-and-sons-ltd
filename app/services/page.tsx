@@ -141,8 +141,7 @@ export default function ServicesPage() {
       <CTASection
         title="Ready to Discuss Your Project?"
         description="Our expert team is ready to help with any civil engineering or groundwork challenge."
-        primaryCTA={{ text: 'Contact Us', href: '/quote' }}
-        secondaryCTA={{ text: 'Contact Us', href: '/contact' }}
+        primaryCTA={{ text: 'Contact Us', href: '/contact' }}
         variant="dark"
       />
     </main>
