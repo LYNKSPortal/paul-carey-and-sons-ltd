@@ -91,11 +91,13 @@ export default function Footer() {
                   01624 880581
                 </a>
               </div>
-              <div className="flex items-center space-x-3 justify-center sm:justify-start">
-                <Mail className="text-[#C1121F] flex-shrink-0" size={18} />
-                <a href="mailto:mail@pcsltd.im" className="text-gray-400 hover:text-[#C1121F] transition-colors text-sm">
-                  mail@pcsltd.im
-                </a>
+              <div className="flex items-start space-x-3 justify-center sm:justify-start">
+                <Mail className="text-[#C1121F] mt-1 flex-shrink-0" size={18} />
+                <div className="space-y-1">
+                  <a href="mailto:mail@pcsltd.im" className="block text-gray-400 hover:text-[#C1121F] transition-colors text-sm">mail@pcsltd.im</a>
+                  <a href="mailto:paul@pcsltd.im" className="block text-gray-400 hover:text-[#C1121F] transition-colors text-sm">paul@pcsltd.im</a>
+                  <a href="mailto:aaron@pcsltd.im" className="block text-gray-400 hover:text-[#C1121F] transition-colors text-sm">aaron@pcsltd.im</a>
+                </div>
               </div>
             </div>
           </div>
