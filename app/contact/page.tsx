@@ -194,6 +194,20 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* FULL-WIDTH MAP */}
+      <div className="w-full h-[450px] md:h-[550px]">
+        <iframe
+          src="https://maps.google.com/maps?q=Ballasalla+Farm,+Jurby+West,+Isle+of+Man,+IM7+3AS&output=embed"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Paul Carey & Sons Ltd — Ballasalla Farm, Jurby West, Isle of Man"
+        />
+      </div>
     </main>
   );
 }
