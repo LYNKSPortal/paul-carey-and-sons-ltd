@@ -9,25 +9,25 @@ const equipment = [
   {
     title: 'Excavators',
     description: 'Full range of excavators from mini-diggers to large tracked excavators suited for all groundwork applications.',
-    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076',
+    img: '/Plant-Hire-001.jpg',
     specs: ['Mini excavators (1–3t)', 'Mid-range (5–15t)', 'Large tracked (20t+)', 'Long-reach variants'],
   },
   {
     title: 'Dumpers & Rollers',
     description: 'Site dumpers and compaction rollers available in various capacities for efficient material movement and ground compaction.',
-    img: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?q=80&w=2070',
+    img: '/Plant-Hire-003.jpg',
     specs: ['Site dumpers (1–10t)', 'Ride-on rollers', 'Vibrating plate compactors', 'Walk-behind rollers'],
   },
   {
     title: 'Compact Loaders',
     description: 'Versatile compact loaders ideal for tight spaces and a wide range of loading and material handling tasks.',
-    img: 'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=2070',
+    img: '/Plant-Hire-005.jpg',
     specs: ['Skid steer loaders', 'Telehandlers', 'Wheeled loaders', 'Multi-terrain loaders'],
   },
   {
     title: 'Site Clearance Equipment',
     description: 'Specialist site clearance machinery including grabs, breakers, and screening equipment for preparation works.',
-    img: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=2031',
+    img: '/Plant-Hire-007.jpg',
     specs: ['Hydraulic breakers', 'Grabs & sorting attachments', 'Screening plant', 'Crusher attachments'],
   },
 ];
@@ -41,7 +41,7 @@ export default function PlantHirePage() {
         description="High-quality, fully maintained machinery available for your groundwork and construction projects."
         primaryCTA={{ text: 'Request Plant Hire', href: '/quote' }}
         secondaryCTA={{ text: 'Call Us Now', href: 'tel:01624880581' }}
-        backgroundImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076"
+        backgroundImage="/Plant-Hire-002.jpg"
       />
 
       <section className="py-20 bg-white">
