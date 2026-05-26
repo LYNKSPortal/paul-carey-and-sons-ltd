@@ -59,6 +59,7 @@ export default function Navbar() {
               <Link href="/" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Home</Link>
               <Link href="/about" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">About</Link>
               <Link href="/services" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Services</Link>
+              <Link href="/projects" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Projects</Link>
               <Link href="/careers" className="text-[#111111] hover:text-[#C1121F] transition-colors font-medium">Careers</Link>
               <Link
                 href="/contact"
@@ -113,6 +114,7 @@ export default function Navbar() {
                     { href: '/', label: 'Home' },
                     { href: '/about', label: 'About' },
                     { href: '/services', label: 'All Services' },
+                    { href: '/projects', label: 'Projects' },
                     { href: '/careers', label: 'Careers' },
                   ].map((link) => (
                     <Link key={link.href} href={link.href} onClick={() => setIsMobileMenuOpen(false)}
