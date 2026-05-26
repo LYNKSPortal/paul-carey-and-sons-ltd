@@ -129,69 +129,6 @@ export default function ContactPage() {
             </motion.div>
           </div>
 
-          {/* MAP + CTA */}
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="bg-[#F5F5F5] rounded-2xl overflow-hidden h-96 flex items-center justify-center"
-            >
-              <div className="text-center p-8">
-                <MapPin className="text-[#C1121F] mx-auto mb-4" size={56} />
-                <h4 className="font-bold text-[#111111] text-xl mb-2">Ballasalla Farm</h4>
-                <p className="text-gray-600 mb-6">Jurby West, Isle of Man, IM7 3AS</p>
-                <a
-                  href="https://maps.google.com/?q=Ballasalla+Farm+Jurby+West+Isle+of+Man+IM7+3AS"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-[#C1121F] text-white px-7 py-3 rounded-xl font-bold hover:bg-[#a00f1a] transition-colors"
-                >
-                  Open in Google Maps
-                  <ArrowRight size={18} />
-                </a>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="space-y-6"
-            >
-              <div className="bg-[#111111] rounded-2xl p-8 text-white">
-                <h4 className="text-xl font-bold mb-2">Ready to Get Started?</h4>
-                <p className="text-gray-400 mb-6 text-sm">Call us directly for a free, no-obligation discussion about your project.</p>
-                <div className="space-y-3 mb-6">
-                  {phones.map((num) => (
-                    <a key={num} href={`tel:${num.replace(/\s/g, '')}`} className="flex items-center gap-3 text-white hover:text-[#C1121F] transition-colors">
-                      <Phone size={18} className="text-[#C1121F]" />
-                      <span className="font-semibold">{num}</span>
-                    </a>
-                  ))}
-                </div>
-                <a
-                  href="tel:01624880581"
-                  className="inline-flex items-center gap-2 bg-[#C1121F] text-white px-6 py-3 rounded-xl font-bold hover:bg-[#a00f1a] transition-colors group"
-                >
-                  Call 01624 880581
-                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                </a>
-              </div>
-
-              <div className="bg-[#F5F5F5] rounded-2xl p-8">
-                <h4 className="text-xl font-bold text-[#111111] mb-4">Email Us Directly</h4>
-                <div className="space-y-3">
-                  {emails.map((email) => (
-                    <a key={email} href={`mailto:${email}`} className="flex items-center gap-3 text-gray-600 hover:text-[#C1121F] transition-colors">
-                      <Mail size={18} className="text-[#C1121F] flex-shrink-0" />
-                      <span className="font-medium">{email}</span>
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </motion.div>
-          </div>
         </div>
       </section>
 
