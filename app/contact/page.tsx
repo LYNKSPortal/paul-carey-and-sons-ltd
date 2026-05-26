@@ -198,7 +198,7 @@ export default function ContactPage() {
       {/* FULL-WIDTH MAP */}
       <div className="w-full h-[450px] md:h-[550px]">
         <iframe
-          src="https://maps.google.com/maps?ll=54.3617,-4.5389&z=15&t=m&output=embed"
+          src="https://maps.google.com/maps?q=IM7+3AS,+Jurby+West,+Isle+of+Man&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
           style={{ border: 0 }}
